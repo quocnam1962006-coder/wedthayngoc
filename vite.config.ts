@@ -4,7 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { defineConfig } from 'vite';
 
-// Khai báo thủ công __dirname để hệ thống build của Vercel hiểu được
+// Định nghĩa __filename và __dirname cho môi trường ES Modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -17,7 +17,7 @@ export default defineConfig(() => {
       },
     },
     server: {
-      // Tắt tự động load lại (HMR) nếu môi trường yêu cầu
+      // Hỗ trợ HMR trong môi trường phát triển
       hmr: process.env.DISABLE_HMR !== 'true',
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
