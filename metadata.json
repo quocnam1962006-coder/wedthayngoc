@@ -1,0 +1,6 @@
+{
+  "name": "Kềm Bến Thành",
+  "description": "Cửa hàng Kềm Bến Thành - Chuyên cung cấp các dòng sản phẩm kềm cắt móng chất lượng cao KM-506, KM-501, KM-555, KM-18 đồng giá 100k VNĐ. Địa chỉ: 740 QL1A, Long An, Tây Ninh, Việt Nam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
