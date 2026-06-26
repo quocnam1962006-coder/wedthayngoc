@@ -17,7 +17,7 @@ export default defineConfig(() => {
       },
     },
     server: {
-      // Hỗ trợ HMR trong môi trường phát triển
+      // Hmr được cấu hình cho môi trường phát triển
       hmr: process.env.DISABLE_HMR !== 'true',
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
